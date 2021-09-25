@@ -1,0 +1,199 @@
+.booking {
+  min-height: 600px;
+  width: 1280px;
+//   background-color: lime;
+  margin: 0 auto;
+  margin-top: 300px;
+  padding-bottom: 50px;
+
+  .booking-wrapper {
+    max-width: 820px;
+    // background-color: mediumslateblue;
+    margin: 0 auto;
+    font-family: proxima-nova;
+    font-size: 60px;
+
+    .info-inputs {
+      height: 58px;
+      max-width: 820px;
+    //   background-color: mediumvioletred;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 20px;
+
+      .inputLeft {
+        position: relative;
+        width: 344px;
+        height: 58px;
+        background-color: midnightblue;
+        font-type: gill-sans;
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+
+        label {
+          position: absolute;
+          margin-left: 10px;
+
+        }
+        input {
+          display: block;
+          height: 58px;
+          width: 344px;
+        }
+      }
+
+      .inputRight {
+        position: relative;
+        width: 453px;
+        height: 58px;
+        background-color: olivedrab;
+        font-type: gill-sans;
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+
+        label {
+          position: absolute;
+          margin-left: 10px;
+        }
+
+        input {
+          display: block;
+          height: 58px;
+          width: 453px;
+        }
+      }
+    }
+
+    .check-in-out {
+      height: 58px;
+      max-width: 820px;
+    //   background-color: mediumvioletred;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 10px;
+
+      .in-out-label {
+        width: 120px;
+        height: 58px;
+        // background-color: orange;
+        font-family: gill-sans;
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+
+        label {
+          margin-left: 10px;
+        }
+      }
+
+      .in-out-input {
+          position: relative;
+        width: 700px;
+        height: 58px;
+        // background-color: palegreen;
+        display: flex;
+        align-items: center;
+        justify-content: right;
+
+        label {
+            position: absolute;
+            font-size: 20px;
+            margin-right: 10px;
+        }
+
+        input {
+            display: block;
+            height: 58px;
+            width: 700px;
+        }
+      }
+    }
+
+    .people-rooms {
+
+max-width: 820px;
+height: 58px;
+// background-color: blue;
+
+.pr {
+
+    max-width: 820px;
+    height: 58px;
+    // background-color: green;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+
+
+.prLabel {
+
+    width: 120px;
+    height: 58px;
+    // background-color: brown;
+    font-type: gill-sans;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+
+    label {
+        margin-left: 10px;
+    }
+}
+
+.prInput {
+width: 100px;
+height: 58px;
+// background-color: cornflowerblue;
+
+input {
+    display: block;
+    height: 58px;
+    width: 103px;
+}
+
+}
+}
+    }
+
+  }
+
+  .message {
+      position: relative;
+padding-top: 10px;
+
+label {
+    position: absolute;
+    font-family: gill-sans;
+    font-size: 18px;
+    margin-left: 10px;
+}
+    input {
+        height: 192px;
+        width: 820px;
+    }
+  }
+  .sub-button {
+      display: flex;
+      justify-content: center;
+      padding-top: 20px;
+
+      button {
+          height: 61px;
+          width: 820px;
+          background-color: #79addc;
+          border-radius: 50px;
+          border-style: solid;
+          border-width: 3px;
+          border-color: #79addc;
+          font-family: gill-sans;
+          font-size: 15px;
+          color: white;
+
+      }
+  }
+}

@@ -1,0 +1,620 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+@font-face {
+  font-family: gill-sans;
+  src: url(../css/fonts/GillSans.ttc);
+}
+@font-face {
+  font-family: proxima-nova;
+  src: url(../css/fonts/ProximaNovaScOsfExtraCondensed.ttf);
+}
+nav {
+  position: fixed;
+  height: 92.5px;
+  width: 80%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom-style: solid;
+  border-width: 2px;
+  border-color: white;
+}
+nav .title {
+  color: white;
+  border-color: white;
+  border-width: 10px;
+  width: 490px;
+  height: 92.5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+nav .title .title-box {
+  width: 80px;
+  height: 42px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 28px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: gill-sans;
+  font-size: 20px;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+}
+nav .links {
+  width: 490px;
+  height: 92.5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-left: 200px;
+}
+nav .links a {
+  color: white;
+  text-decoration: none;
+  font-family: gill-sans;
+  font-size: 15px;
+  margin-right: -10px;
+}
+nav .links span {
+  color: #79ADDC;
+}
+
+.hero {
+  width: 1280px;
+  height: 600px;
+  margin: 0 auto;
+  background-image: url(../images/hero.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.hero .hero-callout {
+  height: 60px;
+  width: 1280px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 150px;
+}
+.hero .hero-callout p {
+  font-family: proxima-nova;
+  font-size: 60px;
+  font-style: thin;
+  color: white;
+}
+.hero .hero-text {
+  height: 46px;
+  width: 1280px;
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 100px;
+}
+.hero .hero-text .hero-ipsum {
+  height: 46px;
+  width: 416px;
+  font-family: gill-sans;
+  font-style: italic;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+.hero .hero-button {
+  height: 41px;
+  width: 1280px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 50px;
+  padding-top: 70px;
+  padding-bottom: 50px;
+}
+.hero .hero-button button {
+  height: 40.04px;
+  width: 121.62px;
+  background-color: #79ADDC;
+  color: white;
+  border-style: none;
+  font-family: gill-sans;
+  font-size: 15px;
+}
+.hero .feature-locations {
+  min-height: 304px;
+  width: 1280px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-top: 100px;
+}
+.hero .feature-locations .feature-photoOne {
+  height: 304px;
+  width: 236px;
+  background-color: fuchsia;
+  background-image: url(../images/special-offer-01.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 56px;
+}
+.hero .feature-locations .feature-photoOne .feature-title {
+  height: 60px;
+  width: 236px;
+  font-family: proxima-nova;
+  font-size: 60px;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.hero .feature-locations .feature-photoOne .feature-price {
+  height: 30px;
+  width: 236px;
+  font-family: proxima-nova;
+  font-size: 30px;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.hero .feature-locations .feature-photoOne .feature-button {
+  height: 40px;
+  width: 236px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 58px;
+}
+.hero .feature-locations .feature-photoOne .feature-button button {
+  width: 133px;
+  height: 40px;
+  border-radius: 38px;
+  background-color: #79ADDC;
+  color: white;
+  border-style: none;
+}
+.hero .feature-locations .feature-photoTwo {
+  height: 304px;
+  width: 236px;
+  background-image: url(../images/special-offer-02.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 56px;
+}
+.hero .feature-locations .feature-photoTwo .feature-title {
+  height: 60px;
+  width: 236px;
+  font-family: proxima-nova;
+  font-size: 60px;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.hero .feature-locations .feature-photoTwo .feature-price {
+  height: 30px;
+  width: 236px;
+  font-family: proxima-nova;
+  font-size: 30px;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.hero .feature-locations .feature-photoTwo .feature-button {
+  height: 40px;
+  width: 236px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 58px;
+}
+.hero .feature-locations .feature-photoTwo .feature-button button {
+  width: 133px;
+  height: 40px;
+  border-radius: 38px;
+  background-color: #79ADDC;
+  color: white;
+  border-style: none;
+}
+.hero .feature-locations .feature-photoThree {
+  height: 304px;
+  width: 236px;
+  background-image: url(../images/special-offer-01.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 56px;
+}
+.hero .feature-locations .feature-photoThree .feature-title {
+  height: 60px;
+  width: 236px;
+  font-family: proxima-nova;
+  font-size: 60px;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.hero .feature-locations .feature-photoThree .feature-price {
+  height: 30px;
+  width: 236px;
+  font-family: proxima-nova;
+  font-size: 30px;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.hero .feature-locations .feature-photoThree .feature-button {
+  height: 40px;
+  width: 236px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 58px;
+}
+.hero .feature-locations .feature-photoThree .feature-button button {
+  width: 133px;
+  height: 40px;
+  border-radius: 38px;
+  background-color: #79ADDC;
+  color: white;
+  border-style: none;
+}
+
+.booking {
+  min-height: 600px;
+  width: 1280px;
+  margin: 0 auto;
+  margin-top: 300px;
+  padding-bottom: 50px;
+}
+.booking .booking-wrapper {
+  max-width: 820px;
+  margin: 0 auto;
+  font-family: proxima-nova;
+  font-size: 60px;
+}
+.booking .booking-wrapper .info-inputs {
+  height: 58px;
+  max-width: 820px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 20px;
+}
+.booking .booking-wrapper .info-inputs .inputLeft {
+  position: relative;
+  width: 344px;
+  height: 58px;
+  background-color: midnightblue;
+  font-type: gill-sans;
+  font-size: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.booking .booking-wrapper .info-inputs .inputLeft label {
+  position: absolute;
+  margin-left: 10px;
+}
+.booking .booking-wrapper .info-inputs .inputLeft input {
+  display: block;
+  height: 58px;
+  width: 344px;
+}
+.booking .booking-wrapper .info-inputs .inputRight {
+  position: relative;
+  width: 453px;
+  height: 58px;
+  background-color: olivedrab;
+  font-type: gill-sans;
+  font-size: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.booking .booking-wrapper .info-inputs .inputRight label {
+  position: absolute;
+  margin-left: 10px;
+}
+.booking .booking-wrapper .info-inputs .inputRight input {
+  display: block;
+  height: 58px;
+  width: 453px;
+}
+.booking .booking-wrapper .check-in-out {
+  height: 58px;
+  max-width: 820px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 10px;
+}
+.booking .booking-wrapper .check-in-out .in-out-label {
+  width: 120px;
+  height: 58px;
+  font-family: gill-sans;
+  font-size: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.booking .booking-wrapper .check-in-out .in-out-label label {
+  margin-left: 10px;
+}
+.booking .booking-wrapper .check-in-out .in-out-input {
+  position: relative;
+  width: 700px;
+  height: 58px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+}
+.booking .booking-wrapper .check-in-out .in-out-input label {
+  position: absolute;
+  font-size: 20px;
+  margin-right: 10px;
+}
+.booking .booking-wrapper .check-in-out .in-out-input input {
+  display: block;
+  height: 58px;
+  width: 700px;
+}
+.booking .booking-wrapper .people-rooms {
+  max-width: 820px;
+  height: 58px;
+}
+.booking .booking-wrapper .people-rooms .pr {
+  max-width: 820px;
+  height: 58px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.booking .booking-wrapper .people-rooms .pr .prLabel {
+  width: 120px;
+  height: 58px;
+  font-type: gill-sans;
+  font-size: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.booking .booking-wrapper .people-rooms .pr .prLabel label {
+  margin-left: 10px;
+}
+.booking .booking-wrapper .people-rooms .pr .prInput {
+  width: 100px;
+  height: 58px;
+}
+.booking .booking-wrapper .people-rooms .pr .prInput input {
+  display: block;
+  height: 58px;
+  width: 103px;
+}
+.booking .message {
+  position: relative;
+  padding-top: 10px;
+}
+.booking .message label {
+  position: absolute;
+  font-family: gill-sans;
+  font-size: 18px;
+  margin-left: 10px;
+}
+.booking .message input {
+  height: 192px;
+  width: 820px;
+}
+.booking .sub-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 20px;
+}
+.booking .sub-button button {
+  height: 61px;
+  width: 820px;
+  background-color: #79addc;
+  border-radius: 50px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #79addc;
+  font-family: gill-sans;
+  font-size: 15px;
+  color: white;
+}
+
+.footer {
+  height: 100px;
+  width: 1280px;
+  background-color: #79addc;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.footer .logo {
+  width: 425px;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 10px;
+}
+.footer .logo .title-box {
+  width: 80px;
+  height: 42px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 28px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: gill-sans;
+  font-size: 20px;
+  color: white;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+}
+.footer .copyright {
+  width: 425px;
+  height: 100px;
+  color: white;
+  font-family: gill-sans;
+  font-size: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.footer .social {
+  width: 425px;
+  height: 100px;
+}

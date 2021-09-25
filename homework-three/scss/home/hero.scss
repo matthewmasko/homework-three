@@ -1,0 +1,318 @@
+nav {
+    position: fixed;
+    height: 92.5px;
+    width: 80%;
+    // background-color: blue;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    border-bottom-style: solid;
+    border-width: 2px;
+    border-color: white;
+
+
+    .title {
+        color: white;
+        border-color: white;
+        border-width: 10px;
+        width: 490px;
+        height: 92.5px;
+        // background-color: lightgreen;
+        display: flex;
+        align-items: center;
+
+        .title-box {
+            width: 80px;
+            height: 42px;
+            // background-color: lightslategray;
+            display: flex;
+            align-items: center;
+            padding-top: 28px;
+            justify-content: center;
+            font-family: gill-sans;
+            font-size: 20px;
+            border-style: solid;
+            border-color: white;
+            border-width: 1px;
+        }
+    }
+
+    .links {
+        width: 490px;
+        height: 92.5px;
+        // background-color: lightblue;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-left: 200px;
+
+        a {
+            color: white;
+            text-decoration: none;
+            font-family: gill-sans;
+            font-size: 15px;
+            margin-right: -10px;
+        }
+        span {
+            color: #79ADDC;
+        }
+    }
+}
+
+.hero {
+    width: 1280px;
+    height: 600px;
+    // background-color: cadetblue;
+    margin: 0 auto;
+    background-image: url(../../images/hero.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+
+.hero-callout {
+height: 60px;
+width: 1280px;
+// background-color: red;
+display: flex;
+justify-content: center;
+padding-top: 150px;
+
+
+
+p {
+font-family: proxima-nova;
+font-size: 60px;
+font-style: thin;
+color: white;
+}
+
+}
+
+.hero-text {
+height: 46px;
+width: 1280px;
+margin-top: 30px;
+// background-color: green;
+display: flex;
+justify-content: center;
+padding-top: 100px;
+
+.hero-ipsum {
+    height: 46px;
+    width: 416px;
+    // background-color: deepskyblue;
+    font-family: gill-sans;
+    font-style: italic;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+}
+
+.hero-button {
+
+    height: 41px;
+    width: 1280px;
+    // background-color: blue;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding-top: 70px;
+    padding-bottom: 50px;
+
+    button {
+        height: 40.04px;
+        width: 121.62px;
+        background-color: #79ADDC;
+        color: white;
+        border-style: none;
+        font-family: gill-sans;
+        font-size: 15px;
+    }
+}
+.feature-locations {
+min-height: 304px;
+width: 1280px;
+// background-color: seagreen;
+display: flex;
+justify-content: space-evenly;
+margin-top: 100px;
+
+
+.feature-photoOne {
+
+    height: 304px;
+    width: 236px;
+    background-color: fuchsia;
+    background-image: url(../../images/special-offer-01.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 56px;
+
+
+    .feature-title {
+
+        height: 60px;
+        width: 236px;
+        // background-color: yellow;
+        font-family: proxima-nova;
+        font-size: 60px;
+        color: white;
+        display: flex;
+        justify-content: center;
+    }
+
+    .feature-price {
+
+        height: 30px;
+        width: 236px;
+        // background-color: green;
+        font-family: proxima-nova;
+        font-size: 30px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .feature-button {
+        height: 40px;
+        width: 236px;
+        // background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 58px;
+
+        button {
+            width: 133px;
+            height: 40px;
+            border-radius: 38px;
+            background-color: #79ADDC;
+            color: white;
+            border-style: none;
+        }
+    }
+}
+
+.feature-photoTwo {
+
+    height: 304px;
+    width: 236px;
+    // background-color: fuchsia;
+    background-image: url(../../images/special-offer-02.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 56px;
+
+
+    .feature-title {
+
+        height: 60px;
+        width: 236px;
+        // background-color: yellow;
+        font-family: proxima-nova;
+        font-size: 60px;
+        color: white;
+        display: flex;
+        justify-content: center;
+    }
+
+    .feature-price {
+
+        height: 30px;
+        width: 236px;
+        // background-color: green;
+        font-family: proxima-nova;
+        font-size: 30px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .feature-button {
+        height: 40px;
+        width: 236px;
+        // background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 58px;
+
+        button {
+            width: 133px;
+            height: 40px;
+            border-radius: 38px;
+            background-color: #79ADDC;
+            color: white;
+            border-style: none;
+        }
+    }
+}
+.feature-photoThree {
+
+    height: 304px;
+    width: 236px;
+    // background-color: fuchsia;
+    background-image: url(../../images/special-offer-01.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 56px;
+
+
+    .feature-title {
+
+        height: 60px;
+        width: 236px;
+        // background-color: yellow;
+        font-family: proxima-nova;
+        font-size: 60px;
+        color: white;
+        display: flex;
+        justify-content: center;
+    }
+
+    .feature-price {
+
+        height: 30px;
+        width: 236px;
+        // background-color: green;
+        font-family: proxima-nova;
+        font-size: 30px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .feature-button {
+        height: 40px;
+        width: 236px;
+        // background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 58px;
+
+        button {
+            width: 133px;
+            height: 40px;
+            border-radius: 38px;
+            background-color: #79ADDC;
+            color: white;
+            border-style: none;
+        }
+    }
+}
+
+}
+
+}
